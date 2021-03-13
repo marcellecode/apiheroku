@@ -7,11 +7,11 @@
     "node": "12.11.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "npm run start",
     "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "build": "npm run build",
+    "test": "npm run test --env=jsdom",
+    "eject": "npm run eject",
     "heroku-postbuild": "npm run build"
     },
   "author": "",
